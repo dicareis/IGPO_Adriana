@@ -3,10 +3,11 @@ import UIKit
 //=================================
 class ViewController: UIViewController
 {
-    /* ---------------------------------------*/
+    /* ---------------FIELDS------------------------*/
     @IBOutlet weak var name: UITextField!
     @IBOutlet weak var phone: UITextField!
     @IBOutlet weak var email: UITextField!
+    /* ---------------BUTTONS------------------------*/
     @IBOutlet weak var amis: UIButton!
     @IBOutlet weak var radio: UIButton!
     @IBOutlet weak var pub_internet: UIButton!
@@ -18,8 +19,9 @@ class ViewController: UIViewController
     /* ---------------------------------------*/
     var pickerChoice: String = ""
     var arrMediaButtons:[UIButton]!
-    /* ---------------------------------------*/
+    /* -------------ARRAY DE BOUTONS--------------------------*/
     var arrForButtonManagement: [Bool] = []
+    /* ----------ARRAY DE COURS-----------------------------*/
     let arrProgramNames: [String] = [
         "DEC - Techniques de production et postproduction télévisuelles (574.AB)",
         "AEC - Production télévisuelle et cinématographique (NWY.15)",
@@ -108,7 +110,7 @@ class ViewController: UIViewController
             aButton.setImage(UIImage(named: "case.png"), for: UIControlState())
         }
     }
-    /* ---------------------------------------*/
+    /* -----------------SAUVAGARDE D'INFOS - CONTROLE DE CHAMPS VIDES----------------------*/
     @IBAction func saveInformation(_ sender: UIButton)
     {
         if name.text == "" || phone.text == "" || email.text == ""
@@ -149,7 +151,8 @@ class ViewController: UIViewController
         phone.text = ""
         email.text = ""
     }
-    /* ---------------------------------------*/
+    /* ----------------POUR FAIRE LE CLAVIER DISPARAITRE après appuyer dans le terminer.--------------------*/
+            /* ---------------C'est une fonction preexistante du "View Controller"--------------------*/
     func textFieldShouldReturn(_ textField: UITextField!) -> Bool
     {
         textField.resignFirstResponder()
