@@ -36,19 +36,17 @@ class ViewController: UIViewController
         "AEC - Métré pour l’estimation en construction (EEC.00)",
         "AEC - Sécurité industrielle et commerciale (LCA.5Q)"]
     //let jsonManager = JsonManager(urlToJsonFile: "http://localhost/xampp/geneau/ig_po/json/data.json")
+    //recuperation de la base de données
     let jsonManager = JsonManager(urlToJsonFile: "http://www.igweb.tv/ig_po/json/data.json")
     /* ---------------------------------------*/
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
         arrMediaButtons = [amis, radio, pub_internet, journaux, moteur, sociaux, tv, autres]
-        
         jsonManager.importJSON()
-        
         fillUpArray()
     }
-    /* ---------------------------------------*/
+    /* -------------Initialisation de l'array avec falses--------------------------*/
     func fillUpArray()
     {
         for _ in 0...11
@@ -56,7 +54,7 @@ class ViewController: UIViewController
             arrForButtonManagement.append(false)
         }
     }
-    /* ---------------------------------------*/
+    /* ----------------Methode pour faire la list de programmes-----------------------*/
     func manageSelectedPrograms() -> String
     {
         var stringToReturn: String = ". "
@@ -69,7 +67,7 @@ class ViewController: UIViewController
             }
         }
         
-        // Delete 3 last characters of string...
+        // Delete 3 last characters of string... Il va effacer le dernier "\n. " de la liste
         if stringToReturn != ""
         {
             stringToReturn = stringToReturn.substring(to: stringToReturn.characters.index(before: stringToReturn.endIndex))
@@ -84,7 +82,8 @@ class ViewController: UIViewController
     {
         super.didReceiveMemoryWarning()
     }
-    /* ---------------------------------------*/
+    
+    /* ---------------Methode pour changer le dessin du bouton et de l'arrForButtonManagement------------------------*/
     @IBAction func buttonManager(_ sender: UIButton)
     {
         let buttonIndexInArray = sender.tag - 100
@@ -100,7 +99,7 @@ class ViewController: UIViewController
             arrForButtonManagement[buttonIndexInArray] = false
         }
     }
-    /* ---------------------------------------*/
+    /* -------------Methode pour reinitialiser les boutons a false--------------------------*/
     func deselectAllButtons()
     {
         for x in 0 ..< arrForButtonManagement.count
@@ -110,7 +109,7 @@ class ViewController: UIViewController
             aButton.setImage(UIImage(named: "case.png"), for: UIControlState())
         }
     }
-    /* -----------------SAUVAGARDE D'INFOS - CONTROLE DE CHAMPS VIDES----------------------*/
+    /* ----------------- SAUVAGARDE D'INFOS - CONTROLE DE CHAMPS VIDES----------------------*/
     @IBAction func saveInformation(_ sender: UIButton)
     {
         if name.text == "" || phone.text == "" || email.text == ""

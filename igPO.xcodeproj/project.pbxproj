@@ -33,6 +33,8 @@
 		07A503F71CB2FE3900E56CDF /* 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503ED1CB2FE3900E56CDF /* 167.png */; };
 		07A503F81CB2FE3900E56CDF /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503EE1CB2FE3900E56CDF /* 180.png */; };
 		07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A503F91CB317ED00E56CDF /* CSVController.swift */; };
+		9BDF32F31F0A933F0079C9BE /* bg_versionPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */; };
+		9BDF32F51F0A95A10079C9BE /* bg_claire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		07A503ED1CB2FE3900E56CDF /* 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 167.png; path = Images/167.png; sourceTree = "<group>"; };
 		07A503EE1CB2FE3900E56CDF /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images/180.png; sourceTree = "<group>"; };
 		07A503F91CB317ED00E56CDF /* CSVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVController.swift; sourceTree = "<group>"; };
+		9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_versionPNG.png; path = Images/bg_versionPNG.png; sourceTree = "<group>"; };
+		9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bg_claire.pdf; path = Images/bg_claire.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 		07040CEC1CAD935300AA29C6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */,
+				9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */,
 				07A503E51CB2FE3900E56CDF /* 29.png */,
 				07A503E61CB2FE3900E56CDF /* 40.png */,
 				07A503E71CB2FE3900E56CDF /* 58.png */,
@@ -218,6 +224,8 @@
 				07040CE01CAD916400AA29C6 /* Assets.xcassets in Resources */,
 				07A503F71CB2FE3900E56CDF /* 167.png in Resources */,
 				07A503F11CB2FE3900E56CDF /* 58.png in Resources */,
+				9BDF32F51F0A95A10079C9BE /* bg_claire.pdf in Resources */,
+				9BDF32F31F0A933F0079C9BE /* bg_versionPNG.png in Resources */,
 				07407F6A1CAF05D8009152E4 /* save.png in Resources */,
 				076A07AD1CAEBE9400865DE8 /* cordiab.ttf in Resources */,
 				07040CDE1CAD916400AA29C6 /* Main.storyboard in Resources */,
