@@ -57,7 +57,7 @@
                                                     <constraint firstAttribute="width" constant="91" id="YTB-f4-klh"/>
                                                 </constraints>
                                                 <connections>
-                                                    <segue destination="E6X-9u-UeY" kind="presentation" id="j4B-cy-Ahn"/>
+                                                    <segue destination="9N6-VF-oJT" kind="presentation" id="NSn-ka-A3h"/>
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="1500" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sOS-wM-map" userLabel="Stack Main">
@@ -616,7 +616,82 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="127" y="257"/>
+            <point key="canvasLocation" x="-896" y="265"/>
+        </scene>
+        <!--Password Controller-->
+        <scene sceneID="whx-EY-kan">
+            <objects>
+                <viewController id="9N6-VF-oJT" customClass="PasswordController" customModule="igPO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Kc-Hp-iJi"/>
+                        <viewControllerLayoutGuide type="bottom" id="KZv-yA-gEy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="m8L-0Q-ARs">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="bon-PQ-NJ2">
+                                <rect key="frame" x="0.0" y="-8" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="JLf-It-ck6">
+                                <rect key="frame" x="339" y="28" width="91" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="96k-Zv-Cqu"/>
+                                    <constraint firstAttribute="width" constant="91" id="jcJ-UU-pEh"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SJY-5X-fkQ">
+                                <rect key="frame" x="253" y="398" width="279" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSJ-sj-gX2">
+                                <rect key="frame" x="311" y="570" width="163" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="30"/>
+                                <state key="normal" title="VALIDER">
+                                    <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="validerMotPasse:" destination="9N6-VF-oJT" eventType="touchUpInside" id="d7O-iT-Alc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mR-gM-uLC">
+                                <rect key="frame" x="153" y="747" width="479" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mot de passe:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EE-aT-paT">
+                                <rect key="frame" x="107" y="353" width="570" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="30"/>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="JLf-It-ck6" firstAttribute="top" secondItem="0Kc-Hp-iJi" secondAttribute="bottom" constant="8" id="eOG-F8-eKf"/>
+                            <constraint firstItem="JLf-It-ck6" firstAttribute="centerX" secondItem="m8L-0Q-ARs" secondAttribute="centerX" id="m75-Hm-B3r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="aSJ-sj-gX2" id="5Ks-md-GMd"/>
+                        <outlet property="erreurMotPasse" destination="7mR-gM-uLC" id="usO-wg-e3h"/>
+                        <outlet property="fieldMotPasse" destination="SJY-5X-fkQ" id="msW-bI-0YH"/>
+                        <outlet property="labelMotPasse" destination="4EE-aT-paT" id="28b-8O-MRR"/>
+                        <segue destination="E6X-9u-UeY" kind="presentation" identifier="seg" id="i9l-7q-hdh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dAZ-mE-58H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-53.125" y="264.84375"/>
         </scene>
         <!--Entries Controller-->
         <scene sceneID="1ZX-3W-e0g">
@@ -966,7 +1041,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VoN-Cf-ar0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1369" y="257"/>
+            <point key="canvasLocation" x="1586" y="257"/>
         </scene>
     </scenes>
     <resources>
@@ -976,6 +1051,6 @@
         <image name="save.png" width="519" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="34R-z7-7Gr"/>
+        <segue reference="i9l-7q-hdh"/>
     </inferredMetricsTieBreakers>
 </document>

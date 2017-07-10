@@ -19,6 +19,7 @@ class ViewController: UIViewController
     /* ---------------------------------------*/
     var pickerChoice: String = ""
     var arrMediaButtons:[UIButton]!
+    var mediaSelected = false
     /* -------------ARRAY DE BOUTONS--------------------------*/
     var arrForButtonManagement: [Bool] = []
     /* ----------ARRAY DE COURS-----------------------------*/
@@ -35,6 +36,7 @@ class ViewController: UIViewController
         "AEC - Techniques d’inspection en bâtiment (EEC.13)",
         "AEC - Métré pour l’estimation en construction (EEC.00)",
         "AEC - Sécurité industrielle et commerciale (LCA.5Q)"]
+    
     //let jsonManager = JsonManager(urlToJsonFile: "http://localhost/xampp/geneau/ig_po/json/data.json")
     //recuperation de la base de données
     let jsonManager = JsonManager(urlToJsonFile: "http://www.igweb.tv/ig_po/json/data.json")
@@ -46,6 +48,13 @@ class ViewController: UIViewController
         jsonManager.importJSON()
         fillUpArray()
     }
+    /* ---------------------------------------*/
+    override func didReceiveMemoryWarning()
+    {
+        super.didReceiveMemoryWarning()
+    }
+    
+    
     /* -------------Initialisation de l'array avec falses--------------------------*/
     func fillUpArray()
     {
@@ -54,6 +63,9 @@ class ViewController: UIViewController
             arrForButtonManagement.append(false)
         }
     }
+    
+    
+    
     /* ----------------Methode pour faire la list de programmes-----------------------*/
     func manageSelectedPrograms() -> String
     {
@@ -77,11 +89,9 @@ class ViewController: UIViewController
         
         return stringToReturn
     }
-    /* ---------------------------------------*/
-    override func didReceiveMemoryWarning()
-    {
-        super.didReceiveMemoryWarning()
-    }
+    
+    
+    
     
     /* ---------------Methode pour changer le dessin du bouton et de l'arrForButtonManagement------------------------*/
     @IBAction func buttonManager(_ sender: UIButton)
@@ -99,7 +109,9 @@ class ViewController: UIViewController
             arrForButtonManagement[buttonIndexInArray] = false
         }
     }
-    /* -------------Methode pour reinitialiser les boutons a false--------------------------*/
+    
+    
+    /* -------------Methode pour reinitialiser les boutons des "programmes" a false et changer le dessin--------------------------*/
     func deselectAllButtons()
     {
         for x in 0 ..< arrForButtonManagement.count
@@ -109,6 +121,8 @@ class ViewController: UIViewController
             aButton.setImage(UIImage(named: "case.png"), for: UIControlState())
         }
     }
+    
+    
     /* ----------------- SAUVAGARDE D'INFOS - CONTROLE DE CHAMPS VIDES----------------------*/
     @IBAction func saveInformation(_ sender: UIButton)
     {
@@ -118,9 +132,14 @@ class ViewController: UIViewController
             return
         }
         
-        if !checkMediaSelection()
+        if !mediaSelected
         {
             alert("Veuillez nous indiquer comment vous avez entendu parler de nous...")
+            return
+        }
+        
+        if !checkManagementSelection(){
+            alert("Veuillez cocher un programme de votre intêret...")
             return
         }
         
@@ -131,7 +150,7 @@ class ViewController: UIViewController
         jsonManager.upload(stringToSend, urlForAdding: "http://www.igweb.tv/ig_po/php/add.php")
         clearFields()
         deselectAllButtons()
-        resetAllMediaButtonAlphas()
+        startAllMediaButtonAlphas()
         
         alert("Les données ont été sauvegardées...")
     }
@@ -150,6 +169,7 @@ class ViewController: UIViewController
         phone.text = ""
         email.text = ""
     }
+    
     /* ----------------POUR FAIRE LE CLAVIER DISPARAITRE après appuyer dans le terminer.--------------------*/
             /* ---------------C'est une fonction preexistante du "View Controller"--------------------*/
     func textFieldShouldReturn(_ textField: UITextField!) -> Bool
@@ -157,11 +177,11 @@ class ViewController: UIViewController
         textField.resignFirstResponder()
         return true
     }
-    /* ---------------------------------------*/
+    /* --------------Méthode que allume et desallume les boutons dés qu'un bouton est selectioné-------------------------*/
     @IBAction func mediaButtons(_ sender: UIButton)
     {
         resetAllMediaButtonAlphas()
-        
+        mediaSelected = true
         pickerChoice = (sender.titleLabel?.text)!
         
         if sender.alpha == 0.5
@@ -182,22 +202,49 @@ class ViewController: UIViewController
         }
     }
     /* ---------------------------------------*/
-    func checkMediaSelection() -> Bool
+    func startAllMediaButtonAlphas()
     {
-        var chosen = false
-        
         for index in 0 ..< arrMediaButtons.count
         {
-            if arrMediaButtons[index].alpha == 1.0
-            {
-                chosen = true
-                break
-            }
+            arrMediaButtons[index].alpha = 1.0
+            mediaSelected = false
         }
+    }
+
+    /* ---------------------------------------*/
+//    func checkMediaSelection() -> Bool
+//    {
+//        var chosen = false
+//        
+//        for index in 0 ..< arrMediaButtons.count
+//        {
+//            if arrMediaButtons[index].alpha == 1.0
+//            {
+//                chosen = true
+//                break
+//            }
+//        }
+//        
+//        return chosen
+//    }
+//    /* ---------------------------------------*/
+    
+    
+    
+    func checkManagementSelection () -> Bool {
         
-        return chosen
+        for x in 0 ..< arrForButtonManagement.count{
+            
+            if arrForButtonManagement[x]{
+                return true
+            }
+       }
+        return false
+    
     }
     /* ---------------------------------------*/
+    
+    
 }
 //=================================
 

@@ -33,6 +33,7 @@
 		07A503F71CB2FE3900E56CDF /* 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503ED1CB2FE3900E56CDF /* 167.png */; };
 		07A503F81CB2FE3900E56CDF /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503EE1CB2FE3900E56CDF /* 180.png */; };
 		07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A503F91CB317ED00E56CDF /* CSVController.swift */; };
+		9B9345AA1F13CDC1005224F9 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9345A91F13CDC1005224F9 /* PasswordController.swift */; };
 		9BDF32F31F0A933F0079C9BE /* bg_versionPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */; };
 		9BDF32F51F0A95A10079C9BE /* bg_claire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */; };
 /* End PBXBuildFile section */
@@ -66,6 +67,7 @@
 		07A503ED1CB2FE3900E56CDF /* 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 167.png; path = Images/167.png; sourceTree = "<group>"; };
 		07A503EE1CB2FE3900E56CDF /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images/180.png; sourceTree = "<group>"; };
 		07A503F91CB317ED00E56CDF /* CSVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVController.swift; sourceTree = "<group>"; };
+		9B9345A91F13CDC1005224F9 /* PasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
 		9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_versionPNG.png; path = Images/bg_versionPNG.png; sourceTree = "<group>"; };
 		9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bg_claire.pdf; path = Images/bg_claire.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +109,7 @@
 				07407F6D1CB2BAE7009152E4 /* EntriesController.swift */,
 				07A503F91CB317ED00E56CDF /* CSVController.swift */,
 				07040CDC1CAD916400AA29C6 /* Main.storyboard */,
+				9B9345A91F13CDC1005224F9 /* PasswordController.swift */,
 				07407F6B1CB1BF49009152E4 /* JsonManager.swift */,
 				07040CDF1CAD916400AA29C6 /* Assets.xcassets */,
 				07040CE11CAD916400AA29C6 /* LaunchScreen.storyboard */,
@@ -244,6 +247,7 @@
 			files = (
 				07407F6E1CB2BAE7009152E4 /* EntriesController.swift in Sources */,
 				07407F6C1CB1BF49009152E4 /* JsonManager.swift in Sources */,
+				9B9345AA1F13CDC1005224F9 /* PasswordController.swift in Sources */,
 				07040CDB1CAD916400AA29C6 /* ViewController.swift in Sources */,
 				07040CD91CAD916400AA29C6 /* AppDelegate.swift in Sources */,
 				07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */,
