@@ -36,6 +36,8 @@
 		9B9345AA1F13CDC1005224F9 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9345A91F13CDC1005224F9 /* PasswordController.swift */; };
 		9BDF32F31F0A933F0079C9BE /* bg_versionPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */; };
 		9BDF32F51F0A95A10079C9BE /* bg_claire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */; };
+		9BE9AE001F15908A004D4EDC /* Bouton.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9ADFF1F15908A004D4EDC /* Bouton.png */; };
+		9BE9AE021F1597B6004D4EDC /* bouton grand.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BE9AE011F1597B6004D4EDC /* bouton grand.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,8 @@
 		9B9345A91F13CDC1005224F9 /* PasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
 		9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_versionPNG.png; path = Images/bg_versionPNG.png; sourceTree = "<group>"; };
 		9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bg_claire.pdf; path = Images/bg_claire.pdf; sourceTree = "<group>"; };
+		9BE9ADFF1F15908A004D4EDC /* Bouton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bouton.png; path = Images/Bouton.png; sourceTree = "<group>"; };
+		9BE9AE011F1597B6004D4EDC /* bouton grand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bouton grand.png"; path = "Images/bouton grand.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		07040CEC1CAD935300AA29C6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9BE9AE011F1597B6004D4EDC /* bouton grand.png */,
+				9BE9ADFF1F15908A004D4EDC /* Bouton.png */,
 				9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */,
 				9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */,
 				07A503E51CB2FE3900E56CDF /* 29.png */,
@@ -184,7 +190,6 @@
 				TargetAttributes = {
 					07040CD41CAD916400AA29C6 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = QTZR8E755P;
 						LastSwiftMigration = 0810;
 					};
 				};
@@ -216,6 +221,7 @@
 				07A503F31CB2FE3900E56CDF /* 80.png in Resources */,
 				07A503EF1CB2FE3900E56CDF /* 29.png in Resources */,
 				07A503F51CB2FE3900E56CDF /* 120.png in Resources */,
+				9BE9AE001F15908A004D4EDC /* Bouton.png in Resources */,
 				07040CE31CAD916400AA29C6 /* LaunchScreen.storyboard in Resources */,
 				076A07A71CAEB7B900865DE8 /* logo.png in Resources */,
 				076A07B01CAEC2E800865DE8 /* case.png in Resources */,
@@ -230,6 +236,7 @@
 				9BDF32F51F0A95A10079C9BE /* bg_claire.pdf in Resources */,
 				9BDF32F31F0A933F0079C9BE /* bg_versionPNG.png in Resources */,
 				07407F6A1CAF05D8009152E4 /* save.png in Resources */,
+				9BE9AE021F1597B6004D4EDC /* bouton grand.png in Resources */,
 				076A07AD1CAEBE9400865DE8 /* cordiab.ttf in Resources */,
 				07040CDE1CAD916400AA29C6 /* Main.storyboard in Resources */,
 				076A07A51CAEB66100865DE8 /* bg.pdf in Resources */,
@@ -372,6 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = igPO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,6 +396,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = igPO/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

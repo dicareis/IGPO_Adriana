@@ -139,7 +139,7 @@ class ViewController: UIViewController
         }
         
         if !checkManagementSelection(){
-            alert("Veuillez cocher un programme de votre intêret...")
+            alert("Veuillez cocher un programme de votre choix...")
             return
         }
         
