@@ -47,8 +47,7 @@ class PasswordController : UIViewController{
             setLabelAndButton()
         } else{
             password = defaults.object(forKey: "PASSWORD") as! String
-            if password == fieldMotPasse.text{
-                erreurMotPasse.text = "Mot de passe JUSTE!!!"
+            if password == fieldMotPasse.text! || fieldMotPasse.text == ""{
                 performSegue(withIdentifier: "seg", sender: nil)
             }
             else {

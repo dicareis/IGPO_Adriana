@@ -33,6 +33,9 @@
 		07A503F71CB2FE3900E56CDF /* 167.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503ED1CB2FE3900E56CDF /* 167.png */; };
 		07A503F81CB2FE3900E56CDF /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 07A503EE1CB2FE3900E56CDF /* 180.png */; };
 		07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A503F91CB317ED00E56CDF /* CSVController.swift */; };
+		9B6873951F16DCE900F867CA /* bouton_cercle.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6873931F16DCE900F867CA /* bouton_cercle.png */; };
+		9B6873961F16DCE900F867CA /* bouton_ombre.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B6873941F16DCE900F867CA /* bouton_ombre.png */; };
+		9B6873981F16E4FA00F867CA /* AideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6873971F16E4FA00F867CA /* AideController.swift */; };
 		9B9345AA1F13CDC1005224F9 /* PasswordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9345A91F13CDC1005224F9 /* PasswordController.swift */; };
 		9BDF32F31F0A933F0079C9BE /* bg_versionPNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */; };
 		9BDF32F51F0A95A10079C9BE /* bg_claire.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */; };
@@ -69,6 +72,9 @@
 		07A503ED1CB2FE3900E56CDF /* 167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 167.png; path = Images/167.png; sourceTree = "<group>"; };
 		07A503EE1CB2FE3900E56CDF /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 180.png; path = Images/180.png; sourceTree = "<group>"; };
 		07A503F91CB317ED00E56CDF /* CSVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSVController.swift; sourceTree = "<group>"; };
+		9B6873931F16DCE900F867CA /* bouton_cercle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_cercle.png; path = Images/bouton_cercle.png; sourceTree = "<group>"; };
+		9B6873941F16DCE900F867CA /* bouton_ombre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bouton_ombre.png; path = Images/bouton_ombre.png; sourceTree = "<group>"; };
+		9B6873971F16E4FA00F867CA /* AideController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AideController.swift; sourceTree = "<group>"; };
 		9B9345A91F13CDC1005224F9 /* PasswordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordController.swift; sourceTree = "<group>"; };
 		9BDF32F21F0A933F0079C9BE /* bg_versionPNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_versionPNG.png; path = Images/bg_versionPNG.png; sourceTree = "<group>"; };
 		9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = bg_claire.pdf; path = Images/bg_claire.pdf; sourceTree = "<group>"; };
@@ -110,6 +116,7 @@
 				07040CEC1CAD935300AA29C6 /* images */,
 				07040CD81CAD916400AA29C6 /* AppDelegate.swift */,
 				07040CDA1CAD916400AA29C6 /* ViewController.swift */,
+				9B6873971F16E4FA00F867CA /* AideController.swift */,
 				07407F6D1CB2BAE7009152E4 /* EntriesController.swift */,
 				07A503F91CB317ED00E56CDF /* CSVController.swift */,
 				07040CDC1CAD916400AA29C6 /* Main.storyboard */,
@@ -125,6 +132,8 @@
 		07040CEC1CAD935300AA29C6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9B6873931F16DCE900F867CA /* bouton_cercle.png */,
+				9B6873941F16DCE900F867CA /* bouton_ombre.png */,
 				9BE9AE011F1597B6004D4EDC /* bouton grand.png */,
 				9BE9ADFF1F15908A004D4EDC /* Bouton.png */,
 				9BDF32F41F0A95A10079C9BE /* bg_claire.pdf */,
@@ -217,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B6873951F16DCE900F867CA /* bouton_cercle.png in Resources */,
 				07A503F01CB2FE3900E56CDF /* 40.png in Resources */,
 				07A503F31CB2FE3900E56CDF /* 80.png in Resources */,
 				07A503EF1CB2FE3900E56CDF /* 29.png in Resources */,
@@ -229,6 +239,7 @@
 				076A07AE1CAEBE9400865DE8 /* cordiai.ttf in Resources */,
 				07A503F81CB2FE3900E56CDF /* 180.png in Resources */,
 				076A07AC1CAEBE9400865DE8 /* cordia.ttf in Resources */,
+				9B6873961F16DCE900F867CA /* bouton_ombre.png in Resources */,
 				07A503F61CB2FE3900E56CDF /* 152.png in Resources */,
 				07040CE01CAD916400AA29C6 /* Assets.xcassets in Resources */,
 				07A503F71CB2FE3900E56CDF /* 167.png in Resources */,
@@ -257,6 +268,7 @@
 				9B9345AA1F13CDC1005224F9 /* PasswordController.swift in Sources */,
 				07040CDB1CAD916400AA29C6 /* ViewController.swift in Sources */,
 				07040CD91CAD916400AA29C6 /* AppDelegate.swift in Sources */,
+				9B6873981F16E4FA00F867CA /* AideController.swift in Sources */,
 				07A503FA1CB317ED00E56CDF /* CSVController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

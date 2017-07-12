@@ -41,6 +41,9 @@ class CSVController: UIViewController
             case "COURRIELS" : self.cvsTextView.text = self.jsonManager.filter(1, title: "Courriels")
             case "MÉDIAS" : self.mostEfficientMedia()
             case "PARTICIPANTS" : self.cvsTextView.text = "PARTICIPANTS :\n\t\(self.jsonManager.jsonParsed.count) participants inscrits aux portes ouvertes."
+            case "RESUMÉ" : self.cvsTextView.text = self.jsonManager.converJsonToCsv("NOM,TÉLÉPHONE,COURRIEL,COMMENT,PROGRAMMES")
+
+            
                 
             default : print("Not found...")
         }
@@ -126,7 +129,7 @@ class CSVController: UIViewController
     /* ---------------------------------------*/
     @IBAction func reset(_ sender: UIButton)
     {
-        let refreshAlert = UIAlertController(title: "Réinialisation", message: "Vous voulez vraiment tout réinitialiser?", preferredStyle: UIAlertControllerStyle.alert)
+        let refreshAlert = UIAlertController(title: "Réinialisation", message: "Vous voulez vraiment tout réinitialiser? \n Cette action effacera toute la base de donnée!", preferredStyle: UIAlertControllerStyle.alert)
         
         refreshAlert.addAction(UIAlertAction(title: "Oui", style: .default, handler: { (action: UIAlertAction!) in
             self.reallyDoReset()
