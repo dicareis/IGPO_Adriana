@@ -61,7 +61,7 @@
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="1500" axis="vertical" distribution="equalSpacing" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="sOS-wM-map" userLabel="Stack Main">
-                                                <rect key="frame" x="50" y="123" width="668" height="1547"/>
+                                                <rect key="frame" x="50" y="123" width="668" height="1500"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="347" placeholderIntrinsicHeight="40" text="Inscription à la soirée des portes ouvertes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gf-Mq-TNh">
                                                         <rect key="frame" x="0.0" y="0.0" width="668" height="40"/>
@@ -72,7 +72,7 @@
                                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                                     </label>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="249" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="NOM" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UuB-NS-5qH">
-                                                        <rect key="frame" x="0.0" y="54" width="668" height="30"/>
+                                                        <rect key="frame" x="0.0" y="54" width="668" height="43"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew" family="Cordia New" pointSize="22"/>
                                                         <textInputTraits key="textInputTraits" returnKeyType="done"/>
                                                         <connections>
@@ -80,7 +80,7 @@
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="TÉLÉPHONE" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htQ-Bm-AWk">
-                                                        <rect key="frame" x="0.0" y="98" width="668" height="30"/>
+                                                        <rect key="frame" x="0.0" y="111" width="668" height="30"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew" family="Cordia New" pointSize="22"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="phonePad" returnKeyType="done"/>
                                                         <connections>
@@ -88,7 +88,7 @@
                                                         </connections>
                                                     </textField>
                                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="COURRIEL" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="pTU-u3-Gko">
-                                                        <rect key="frame" x="0.0" y="142" width="668" height="30"/>
+                                                        <rect key="frame" x="0.0" y="155" width="668" height="30"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew" family="Cordia New" pointSize="22"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="done"/>
                                                         <connections>
@@ -96,7 +96,7 @@
                                                         </connections>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment avez-vous entendu parler de nous?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCq-4r-OeK">
-                                                        <rect key="frame" x="0.0" y="186" width="668" height="31"/>
+                                                        <rect key="frame" x="0.0" y="199" width="668" height="31"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -104,7 +104,7 @@
                                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIU-mj-W7p">
-                                                        <rect key="frame" x="0.0" y="231" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="244" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Amis / Famille" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -114,7 +114,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bub-vW-oof">
-                                                        <rect key="frame" x="0.0" y="281" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="294" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Radio" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -124,7 +124,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J3i-h8-6gm">
-                                                        <rect key="frame" x="0.0" y="331" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="344" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Publicité Internet" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -134,7 +134,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gGf-of-4K4">
-                                                        <rect key="frame" x="0.0" y="381" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="394" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Journaux" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -144,7 +144,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8gj-8y-L8o">
-                                                        <rect key="frame" x="0.0" y="431" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="444" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Moteur de recherche" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -154,7 +154,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BZu-ce-H0d">
-                                                        <rect key="frame" x="0.0" y="481" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="494" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Médias sociaux" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -164,7 +164,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7gw-hj-e4Y">
-                                                        <rect key="frame" x="0.0" y="531" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="544" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Télévision" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -174,7 +174,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="36" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUg-UW-x6z">
-                                                        <rect key="frame" x="0.0" y="581" width="668" height="36"/>
+                                                        <rect key="frame" x="0.0" y="594" width="668" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <state key="normal" title="Autres" backgroundImage="Bouton.png">
                                                             <color key="titleColor" red="0.035006987560000001" green="0.2063943416" blue="0.2103330034" alpha="1" colorSpace="calibratedRGB"/>
@@ -184,7 +184,7 @@
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="40" text="Cochez le(s) programme(s) de votre choix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRt-Uk-GLB">
-                                                        <rect key="frame" x="0.0" y="631" width="560" height="40"/>
+                                                        <rect key="frame" x="0.0" y="644" width="560" height="40"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -192,13 +192,13 @@
                                                         <size key="shadowOffset" width="0.0" height="0.0"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="36" text="Télévision / Cinéma" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUc-qD-gpC">
-                                                        <rect key="frame" x="0.0" y="685" width="560" height="36"/>
+                                                        <rect key="frame" x="0.0" y="698" width="560" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="83" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="GLK-sE-vxB" userLabel="télévision">
-                                                        <rect key="frame" x="0.0" y="735" width="601" height="115"/>
+                                                        <rect key="frame" x="0.0" y="748" width="601" height="115"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="560" placeholderIntrinsicHeight="30" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="H9d-hc-TBF">
                                                                 <rect key="frame" x="0.0" y="0.0" width="601" height="33"/>
@@ -272,13 +272,13 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="112" placeholderIntrinsicHeight="36" text="Animation 3D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3tJ-hT-36N">
-                                                        <rect key="frame" x="0.0" y="864" width="112" height="36"/>
+                                                        <rect key="frame" x="0.0" y="877" width="112" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="83" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="IZ9-X5-hYm" userLabel="animation">
-                                                        <rect key="frame" x="0.0" y="914" width="540" height="115"/>
+                                                        <rect key="frame" x="0.0" y="927" width="540" height="115"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="25" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="h0n-pm-qoZ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="540" height="33"/>
@@ -352,13 +352,13 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="102" placeholderIntrinsicHeight="36" text="Informatique" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXo-8B-RXj">
-                                                        <rect key="frame" x="0.0" y="1043" width="102" height="36"/>
+                                                        <rect key="frame" x="0.0" y="1056" width="102" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="25" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="OaG-Yg-o5d" userLabel="informatique">
-                                                        <rect key="frame" x="0.0" y="1093" width="500" height="33"/>
+                                                        <rect key="frame" x="0.0" y="1106" width="500" height="33"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="33" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="evH-97-Jom">
                                                                 <rect key="frame" x="0.0" y="0.0" width="500" height="33"/>
@@ -386,13 +386,13 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="73" placeholderIntrinsicHeight="36" text="Bâtiment" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X4F-lz-Imv">
-                                                        <rect key="frame" x="0.0" y="1140" width="73" height="36"/>
+                                                        <rect key="frame" x="0.0" y="1153" width="73" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="112" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="xLb-cY-Ouh" userLabel="Bâtiment">
-                                                        <rect key="frame" x="0.0" y="1190" width="500" height="156"/>
+                                                        <rect key="frame" x="0.0" y="1203" width="500" height="156"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="25" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="0C7-QI-0HZ">
                                                                 <rect key="frame" x="0.0" y="0.0" width="500" height="33"/>
@@ -489,13 +489,13 @@
                                                         </subviews>
                                                     </stackView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="68" placeholderIntrinsicHeight="36" text="Sécurité" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hqq-ym-yIT">
-                                                        <rect key="frame" x="0.0" y="1360" width="68" height="36"/>
+                                                        <rect key="frame" x="0.0" y="1373" width="68" height="36"/>
                                                         <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="28"/>
                                                         <color key="textColor" red="0.032816184465122071" green="0.25518050472236264" blue="0.25759214743589742" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="500" placeholderIntrinsicHeight="25" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Qi-px-v03" userLabel="Sécurité">
-                                                        <rect key="frame" x="0.0" y="1410" width="500" height="33"/>
+                                                        <rect key="frame" x="0.0" y="1423" width="500" height="33"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="infinite" placeholderIntrinsicHeight="25" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="CKS-JE-M5g">
                                                                 <rect key="frame" x="0.0" y="0.0" width="500" height="33"/>
@@ -522,14 +522,15 @@
                                                             </stackView>
                                                         </subviews>
                                                     </stackView>
-                                                    <button opaque="NO" alpha="0.59999999999999998" contentMode="scaleToFill" placeholderIntrinsicWidth="150" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hh-bH-F6k">
-                                                        <rect key="frame" x="0.0" y="1457" width="150" height="90"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="150" placeholderIntrinsicHeight="40" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hh-bH-F6k">
+                                                        <rect key="frame" x="0.0" y="1470" width="172" height="30"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="150" id="azu-Sb-XLw"/>
-                                                            <constraint firstAttribute="height" constant="90" id="duP-XA-flA"/>
+                                                            <constraint firstAttribute="width" constant="172" id="azu-Sb-XLw"/>
+                                                            <constraint firstAttribute="height" constant="30" id="duP-XA-flA"/>
                                                         </constraints>
-                                                        <state key="normal" image="save.png">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                                        <state key="normal" title="SAUVEGARDER" backgroundImage="Bouton.png">
+                                                            <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                                         </state>
                                                         <connections>
                                                             <action selector="saveInformation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bc0-jT-d4j"/>
@@ -608,7 +609,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-896" y="265"/>
+            <point key="canvasLocation" x="-546" y="257"/>
         </scene>
         <!--Password Controller-->
         <scene sceneID="whx-EY-kan">
@@ -633,45 +634,36 @@
                                     <constraint firstAttribute="width" constant="91" id="jcJ-UU-pEh"/>
                                 </constraints>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SJY-5X-fkQ">
-                                <rect key="frame" x="253" y="398" width="279" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SJY-5X-fkQ">
+                                <rect key="frame" x="245" y="398" width="279" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="279" id="D1t-JR-VvA"/>
+                                    <constraint firstAttribute="height" constant="30" id="Y9I-O7-kR4"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7mR-gM-uLC">
-                                <rect key="frame" x="153" y="747" width="479" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="30"/>
-                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mot de passe:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EE-aT-paT">
-                                <rect key="frame" x="107" y="353" width="570" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mot de passe:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4EE-aT-paT">
+                                <rect key="frame" x="234.5" y="353" width="299" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="6nL-U5-Ndh"/>
+                                    <constraint firstAttribute="width" constant="299" id="Gor-yK-rC9"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="30"/>
                                 <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Administrateur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrs-jD-CYa">
-                                <rect key="frame" x="107" y="225" width="570" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Administrateur" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rrs-jD-CYa">
+                                <rect key="frame" x="164" y="237.5" width="440" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="257-Q1-spP"/>
+                                    <constraint firstAttribute="width" constant="440" id="3nG-Je-u3N"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="60"/>
                                 <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSJ-sj-gX2">
-                                <rect key="frame" x="287" y="459" width="211" height="52"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="30"/>
-                                <state key="normal" title="VALIDER" backgroundImage="Bouton.png">
-                                    <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="validerMotPasse:" destination="9N6-VF-oJT" eventType="touchUpInside" id="d7O-iT-Alc"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WJ-Y9-S2I">
                                 <rect key="frame" x="20" y="37" width="80" height="30"/>
                                 <constraints>
@@ -686,18 +678,39 @@
                                     <segue destination="BYZ-38-t0r" kind="presentation" id="k2s-YD-kjI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSJ-sj-gX2">
+                                <rect key="frame" x="284" y="457" width="200" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="5da-tF-4tc"/>
+                                    <constraint firstAttribute="height" constant="52" id="FYI-Qq-3QG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="26"/>
+                                <state key="normal" title="VALIDER" backgroundImage="Bouton.png">
+                                    <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="validerMotPasse:" destination="9N6-VF-oJT" eventType="touchUpInside" id="d7O-iT-Alc"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="4EE-aT-paT" firstAttribute="top" secondItem="rrs-jD-CYa" secondAttribute="bottom" constant="78.5" id="NIL-vn-x5n"/>
                             <constraint firstItem="5WJ-Y9-S2I" firstAttribute="leading" secondItem="m8L-0Q-ARs" secondAttribute="leadingMargin" id="R4t-Oa-Pkh"/>
+                            <constraint firstItem="aSJ-sj-gX2" firstAttribute="top" secondItem="SJY-5X-fkQ" secondAttribute="bottom" constant="29" id="S9R-bB-eYe"/>
                             <constraint firstItem="5WJ-Y9-S2I" firstAttribute="top" secondItem="0Kc-Hp-iJi" secondAttribute="bottom" constant="17" id="SNC-e5-7bl"/>
+                            <constraint firstItem="aSJ-sj-gX2" firstAttribute="centerX" secondItem="m8L-0Q-ARs" secondAttribute="centerX" id="Vhv-cC-ggG"/>
+                            <constraint firstItem="SJY-5X-fkQ" firstAttribute="centerX" secondItem="m8L-0Q-ARs" secondAttribute="centerX" id="c8U-Cg-rL1"/>
+                            <constraint firstItem="4EE-aT-paT" firstAttribute="centerX" secondItem="m8L-0Q-ARs" secondAttribute="centerX" id="d5P-Zo-ATh"/>
                             <constraint firstItem="JLf-It-ck6" firstAttribute="top" secondItem="0Kc-Hp-iJi" secondAttribute="bottom" constant="8" id="eOG-F8-eKf"/>
+                            <constraint firstItem="rrs-jD-CYa" firstAttribute="centerX" secondItem="m8L-0Q-ARs" secondAttribute="centerX" id="lWK-YA-SiN"/>
+                            <constraint firstItem="SJY-5X-fkQ" firstAttribute="top" secondItem="4EE-aT-paT" secondAttribute="bottom" constant="8" id="loZ-Uq-4FM"/>
                             <constraint firstItem="JLf-It-ck6" firstAttribute="centerX" secondItem="m8L-0Q-ARs" secondAttribute="centerX" id="m75-Hm-B3r"/>
+                            <constraint firstItem="rrs-jD-CYa" firstAttribute="centerY" secondItem="m8L-0Q-ARs" secondAttribute="centerY" multiplier="0.5" id="qlH-pS-w7v"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="button" destination="aSJ-sj-gX2" id="5Ks-md-GMd"/>
-                        <outlet property="erreurMotPasse" destination="7mR-gM-uLC" id="usO-wg-e3h"/>
                         <outlet property="fieldMotPasse" destination="SJY-5X-fkQ" id="msW-bI-0YH"/>
                         <outlet property="labelMotPasse" destination="4EE-aT-paT" id="28b-8O-MRR"/>
                         <segue destination="E6X-9u-UeY" kind="presentation" identifier="seg" id="i9l-7q-hdh"/>
@@ -705,7 +718,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dAZ-mE-58H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="69" y="257"/>
+            <point key="canvasLocation" x="94.53125" y="256.640625"/>
         </scene>
         <!--Entries Controller-->
         <scene sceneID="1ZX-3W-e0g">
@@ -783,7 +796,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="52.5" id="fRx-ZP-2Ng"/>
                                                     </constraints>
-                                                    <mutableString key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</mutableString>
+                                                    <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                     <color key="textColor" red="0.0061955091139999996" green="0.40543733949999999" blue="0.41088474679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <fontDescription key="fontDescription" name="CordiaNew" family="Cordia New" pointSize="23"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -830,13 +843,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1fe-ar-aJd">
-                                <rect key="frame" x="542" y="974" width="186" height="30"/>
+                                <rect key="frame" x="556" y="974" width="172" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="186" id="J12-xQ-Azb"/>
+                                    <constraint firstAttribute="width" constant="172" id="J12-xQ-Azb"/>
                                     <constraint firstAttribute="height" constant="30" id="dOB-Re-Mxi"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
-                                <state key="normal" title="GENERER FICHIER CSV" backgroundImage="Bouton.png">
+                                <state key="normal" title="GÉNÉRER FICHIER" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -868,7 +881,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXO-g2-Lo1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="744.53125" y="256.640625"/>
+            <point key="canvasLocation" x="731" y="257"/>
         </scene>
         <!--Controller-->
         <scene sceneID="c0f-va-qc8">
@@ -911,7 +924,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="oqV-Yf-Zqq"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="TÉLÉPHONES" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -924,7 +937,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="oXU-Kb-KxN"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="MÉDIAS" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -934,9 +947,9 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="QuK-t9-Wdg">
                                 <rect key="frame" x="40" y="122" width="688" height="789"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                <color key="textColor" red="0.031372549019607843" green="0.25490196078431371" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -945,7 +958,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="756-tB-ufp"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="NOMS" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -958,7 +971,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0uz-8A-auu"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="COURRIELS" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -971,7 +984,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ltp-LJ-wPP"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="PARTICIPANTS" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -984,7 +997,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="UWn-pa-Q0i"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="RÉINITIALISER" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -997,7 +1010,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="anv-G5-3im"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="PROGRAMMES" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -1010,7 +1023,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="3BN-3b-4A6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="22"/>
                                 <state key="normal" title="RESUMÉ" backgroundImage="Bouton.png">
                                     <color key="titleColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -1093,16 +1106,22 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="S71-xO-sfc">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aide" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I1T-sV-kf6">
+                                <rect key="frame" x="165" y="135" width="438" height="37"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="438" id="SIX-f4-lOd"/>
+                                    <constraint firstAttribute="height" constant="37" id="oba-fT-85A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="60"/>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="KPX-61-91l">
                                 <rect key="frame" x="339" y="28" width="91" height="63"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="63" id="3RX-fz-4P8"/>
                                     <constraint firstAttribute="width" constant="91" id="wvl-Bv-TB5"/>
                                 </constraints>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XO9-Nw-e3R">
-                                <rect key="frame" x="264" y="139" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="64O-b9-OKu">
                                 <rect key="frame" x="16" y="44" width="80" height="30"/>
@@ -1118,15 +1137,71 @@
                                     <segue destination="fEO-y0-p40" kind="presentation" id="FvI-Cz-b2J"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment exporter la base de donnée" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Juk-YD-8ue">
+                                <rect key="frame" x="39" y="198" width="691" height="38"/>
+                                <color key="backgroundColor" red="0.99519230769230771" green="0.99038461538461542" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="34"/>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dqC-Be-nbw">
+                                <rect key="frame" x="38.5" y="244" width="691" height="182.5"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <string key="text">1 – Rester appuyé sur le texte que vous voulez copier jusqu'à ce que le téléphone propose « Tout sélectionner ». Choisir l'option.
+2 - Les informations sont sauvegardée dans la mémoire du téléphone, vous pouvez donc les coller n'importe où (courrier, notes etc.).</string>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="LBI-UI-HZV">
+                                <rect key="frame" x="38.5" y="504" width="691" height="414"/>
+                                <color key="backgroundColor" white="1" alpha="0.5" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="414" id="2JY-FZ-4Ug"/>
+                                </constraints>
+                                <mutableString key="text">3 - Ouvrir votre courriel et coller les informations déjà copiées.
+4 - Envoyer le courriel à vous-même où à la personne qui a besoin des données.
+5 - Ouvrir le courriel dans l’ordinateur, copier et coller les informations dans un éditeur de texte (« TextEdit » pour iOS ou « Bloc-Notes » pour Windows). Attention, il faut carrément le faire dans le « TextEdit » ou le « Bloc-Notes ». L’exportation en format CSV ne fonctionne pas sur « Microsoft Word ».
+6 - Sur iOS – Ouvrir le fichier dans le « TextEdit »  et choisissez dans la barre de taches, l’ongle « Format »  l’option « convertir au format texte ».
+7 - Sur Windows, il suffit simplement de sauvegarder dans le « Bloc-Notes ».
+8 - Sur iOS -  Ouvrir le Finder. Sur Windows - Ouvrir le poste de travail.
+9 - Changer l’extension du fichier de TXT pour CSV.
+10 - Vous pouvez maintenant ouvrir le fichier dans « Microsoft Excel », « Numbers » ou quel qu’autre application qui supporte le format CSV.</mutableString>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment exporter la base de données dans le format CSV" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AEw-To-rwk">
+                                <rect key="frame" x="38.5" y="458.5" width="691" height="37.5"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="CordiaNew-Bold" family="Cordia New" pointSize="34"/>
+                                <color key="textColor" red="0.032816184470000002" green="0.25518050469999998" blue="0.25759214740000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="I1T-sV-kf6" firstAttribute="centerY" secondItem="n5Q-4A-pe5" secondAttribute="centerY" multiplier="0.3" id="0HY-Sz-swk"/>
                             <constraint firstItem="64O-b9-OKu" firstAttribute="centerY" secondItem="KPX-61-91l" secondAttribute="centerY" id="18A-11-SlU"/>
                             <constraint firstItem="S71-xO-sfc" firstAttribute="leading" secondItem="n5Q-4A-pe5" secondAttribute="leading" id="2kt-5j-PDG"/>
+                            <constraint firstItem="dqC-Be-nbw" firstAttribute="width" secondItem="n5Q-4A-pe5" secondAttribute="width" multiplier="0.9" id="4h5-AU-ffC"/>
+                            <constraint firstItem="LBI-UI-HZV" firstAttribute="top" secondItem="AEw-To-rwk" secondAttribute="bottom" constant="8" id="7Wg-cf-Alf"/>
+                            <constraint firstItem="AEw-To-rwk" firstAttribute="top" secondItem="dqC-Be-nbw" secondAttribute="bottom" constant="32" id="BEv-KH-6gs"/>
+                            <constraint firstItem="LBI-UI-HZV" firstAttribute="centerX" secondItem="n5Q-4A-pe5" secondAttribute="centerX" id="FVd-Tp-Aol"/>
+                            <constraint firstItem="Juk-YD-8ue" firstAttribute="centerX" secondItem="n5Q-4A-pe5" secondAttribute="centerX" id="KVz-aO-a3O"/>
+                            <constraint firstItem="AEw-To-rwk" firstAttribute="centerX" secondItem="n5Q-4A-pe5" secondAttribute="centerX" id="Krf-MF-PwD"/>
+                            <constraint firstItem="AEw-To-rwk" firstAttribute="width" secondItem="n5Q-4A-pe5" secondAttribute="width" multiplier="0.9" id="OL9-lz-VYa"/>
                             <constraint firstItem="64O-b9-OKu" firstAttribute="leading" secondItem="n5Q-4A-pe5" secondAttribute="leadingMargin" constant="-4" id="OyS-5Y-HDT"/>
+                            <constraint firstItem="I1T-sV-kf6" firstAttribute="centerX" secondItem="n5Q-4A-pe5" secondAttribute="centerX" id="UNG-u0-jUN"/>
+                            <constraint firstItem="Juk-YD-8ue" firstAttribute="top" secondItem="I1T-sV-kf6" secondAttribute="bottom" constant="26" id="Wde-Jm-WiL"/>
+                            <constraint firstItem="mWB-8h-7ru" firstAttribute="top" secondItem="LBI-UI-HZV" secondAttribute="bottom" constant="106" id="ZMt-ZB-EXy"/>
+                            <constraint firstItem="LBI-UI-HZV" firstAttribute="width" secondItem="n5Q-4A-pe5" secondAttribute="width" multiplier="0.9" id="a7c-sf-x3g"/>
+                            <constraint firstItem="Juk-YD-8ue" firstAttribute="width" secondItem="n5Q-4A-pe5" secondAttribute="width" multiplier="0.9" id="anr-rl-ufJ"/>
+                            <constraint firstItem="dqC-Be-nbw" firstAttribute="top" secondItem="Juk-YD-8ue" secondAttribute="bottom" constant="8" id="jrT-Kf-Ug7"/>
                             <constraint firstItem="S71-xO-sfc" firstAttribute="top" secondItem="n5Q-4A-pe5" secondAttribute="top" id="n64-gq-sLi"/>
                             <constraint firstItem="KPX-61-91l" firstAttribute="top" secondItem="VAn-iv-HTI" secondAttribute="bottom" constant="8" symbolic="YES" id="nqw-d0-ivC"/>
                             <constraint firstItem="KPX-61-91l" firstAttribute="centerX" secondItem="n5Q-4A-pe5" secondAttribute="centerX" id="oWL-PF-bUa"/>
+                            <constraint firstItem="dqC-Be-nbw" firstAttribute="centerX" secondItem="n5Q-4A-pe5" secondAttribute="centerX" id="raC-FQ-lAU"/>
                             <constraint firstItem="S71-xO-sfc" firstAttribute="bottom" secondItem="mWB-8h-7ru" secondAttribute="top" id="vFi-FK-JGj"/>
                             <constraint firstItem="KPX-61-91l" firstAttribute="centerX" secondItem="S71-xO-sfc" secondAttribute="centerX" id="y16-QH-PS9"/>
                         </constraints>
@@ -1134,7 +1209,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wsy-kY-iov" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2015" y="258"/>
+            <point key="canvasLocation" x="2014.84375" y="257.8125"/>
         </scene>
     </scenes>
     <resources>
@@ -1143,11 +1218,10 @@
         <image name="bouton_cercle.png" width="64" height="64"/>
         <image name="case.png" width="96" height="96"/>
         <image name="logo.png" width="266" height="185"/>
-        <image name="save.png" width="519" height="333"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FvI-Cz-b2J"/>
-        <segue reference="34R-z7-7Gr"/>
-        <segue reference="wTJ-KL-nQk"/>
+        <segue reference="snb-Zl-luc"/>
+        <segue reference="i9l-7q-hdh"/>
+        <segue reference="k2s-YD-kjI"/>
     </inferredMetricsTieBreakers>
 </document>

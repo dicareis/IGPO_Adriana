@@ -16,7 +16,7 @@ class ViewController: UIViewController
     @IBOutlet weak var sociaux: UIButton!
     @IBOutlet weak var tv: UIButton!
     @IBOutlet weak var autres: UIButton!
-    /* ---------------------------------------*/
+    /* --------------AUTRES VARIABLES-------------------------*/
     var pickerChoice: String = ""
     var arrMediaButtons:[UIButton]!
     var mediaSelected = false
@@ -37,15 +37,14 @@ class ViewController: UIViewController
         "AEC - Métré pour l’estimation en construction (EEC.00)",
         "AEC - Sécurité industrielle et commerciale (LCA.5Q)"]
     
-    //let jsonManager = JsonManager(urlToJsonFile: "http://localhost/xampp/geneau/ig_po/json/data.json")
-    //recuperation de la base de données
+    //Recuperation de la base de données
     let jsonManager = JsonManager(urlToJsonFile: "http://www.igweb.tv/ig_po/json/data.json")
     /* ---------------------------------------*/
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        arrMediaButtons = [amis, radio, pub_internet, journaux, moteur, sociaux, tv, autres]
-        jsonManager.importJSON()
+        arrMediaButtons = [amis, radio, pub_internet, journaux, moteur, sociaux, tv, autres] //liason avec les boutons
+        jsonManager.importJSON() //recuperation du fichier json
         fillUpArray()
     }
     /* ---------------------------------------*/
@@ -123,7 +122,7 @@ class ViewController: UIViewController
     }
     
     
-    /* ----------------- SAUVAGARDE D'INFOS - CONTROLE DE CHAMPS VIDES----------------------*/
+    /* ----------------- Sauvegarde d'infos - Controle de champs vides----------------------*/
     @IBAction func saveInformation(_ sender: UIButton)
     {
         if name.text == "" || phone.text == "" || email.text == ""
@@ -144,9 +143,8 @@ class ViewController: UIViewController
         }
         
         let progs = manageSelectedPrograms()
-        
         let stringToSend = "name=\(name.text!)&phone=\(phone.text!)&email=\(email.text!)&how=\(pickerChoice)&progs=\(progs)"
-        //jsonManager.upload(stringToSend, urlForAdding: "http://localhost/xampp/geneau/ig_po/php/add.php")
+        
         jsonManager.upload(stringToSend, urlForAdding: "http://www.igweb.tv/ig_po/php/add.php")
         clearFields()
         deselectAllButtons()
@@ -171,7 +169,7 @@ class ViewController: UIViewController
     }
     
     /* ----------------POUR FAIRE LE CLAVIER DISPARAITRE après appuyer dans le terminer.--------------------*/
-            /* ---------------C'est une fonction preexistante du "View Controller"--------------------*/
+            /* ---------------C'est une methode preexistante du "View Controller"--------------------*/
     func textFieldShouldReturn(_ textField: UITextField!) -> Bool
     {
         textField.resignFirstResponder()
@@ -210,27 +208,7 @@ class ViewController: UIViewController
             mediaSelected = false
         }
     }
-
     /* ---------------------------------------*/
-//    func checkMediaSelection() -> Bool
-//    {
-//        var chosen = false
-//        
-//        for index in 0 ..< arrMediaButtons.count
-//        {
-//            if arrMediaButtons[index].alpha == 1.0
-//            {
-//                chosen = true
-//                break
-//            }
-//        }
-//        
-//        return chosen
-//    }
-//    /* ---------------------------------------*/
-    
-    
-    
     func checkManagementSelection () -> Bool {
         
         for x in 0 ..< arrForButtonManagement.count{
@@ -240,11 +218,8 @@ class ViewController: UIViewController
             }
        }
         return false
-    
     }
     /* ---------------------------------------*/
-    
-    
 }
 //=================================
 
