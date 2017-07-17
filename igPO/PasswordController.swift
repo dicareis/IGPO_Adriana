@@ -15,7 +15,7 @@ class PasswordController : UIViewController{
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setLabelAndButton() //---------appel de methode qui Methode qui rafraîchit les elements textuels
+        setLabelAndButton() //---------appel de methode qui rafraîchit les elements textuels
     }
     
     override func didReceiveMemoryWarning() {
@@ -27,7 +27,7 @@ class PasswordController : UIViewController{
     //---------Methode qui valide le mot de passe
     @IBAction func validerMotPasse(_ sender: UIButton) {
         
-        if fieldMotPasse.text == passwordMaster{ //---------Mot de passe master pour reinitializer le mot de passe
+        if fieldMotPasse.text == passwordMaster{ //---------Mot de passe master pour reinitialiser le mot de passe
             defaults.removeObject(forKey: "PASSWORD")
             setLabelAndButton()
         }

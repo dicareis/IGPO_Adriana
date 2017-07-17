@@ -78,7 +78,7 @@ class ViewController: UIViewController
             }
         }
         
-        // Delete 3 last characters of string... Il va effacer le dernier "\n. " de la liste
+        // Delete 3 last characters of string... Il va effacer le dernier "\n. "
         if stringToReturn != ""
         {
             stringToReturn = stringToReturn.substring(to: stringToReturn.characters.index(before: stringToReturn.endIndex))
@@ -145,6 +145,7 @@ class ViewController: UIViewController
         let progs = manageSelectedPrograms()
         let stringToSend = "name=\(name.text!)&phone=\(phone.text!)&email=\(email.text!)&how=\(pickerChoice)&progs=\(progs)"
         
+        /* -----------------Sauvegarde des nouvelles données dans le serveur----------------------*/
         jsonManager.upload(stringToSend, urlForAdding: "http://www.igweb.tv/ig_po/php/add.php")
         clearFields()
         deselectAllButtons()
@@ -152,7 +153,7 @@ class ViewController: UIViewController
         
         alert("Les données ont été sauvegardées...")
     }
-    /* ---------------------------------------*/
+    /* -----------------Methode pour afficher l’alerte après sauvegarder les données----------------------*/
     func alert(_ theMessage: String)
     {
         let refreshAlert = UIAlertController(title: "Message...", message: theMessage, preferredStyle: .alert)
@@ -160,7 +161,7 @@ class ViewController: UIViewController
         refreshAlert.addAction(OKAction)
         present(refreshAlert, animated: true){}
     }
-    /* ---------------------------------------*/
+    /* ---------------Methode pour effacer les données rentrées (nome, telephone et courriel) ------------------------*/
     func clearFields()
     {
         name.text = ""
@@ -168,14 +169,14 @@ class ViewController: UIViewController
         email.text = ""
     }
     
-    /* ----------------POUR FAIRE LE CLAVIER DISPARAITRE après appuyer dans le terminer.--------------------*/
+    /* ----------------Methode pour faire le clavier disparaitre après appuyer dans terminer--------------------*/
             /* ---------------C'est une methode preexistante du "View Controller"--------------------*/
     func textFieldShouldReturn(_ textField: UITextField!) -> Bool
     {
         textField.resignFirstResponder()
         return true
     }
-    /* --------------Méthode que allume et desallume les boutons dés qu'un bouton est selectioné-------------------------*/
+    /* --------------Méthode que allume et éteindre les boutons de media dès qu'un bouton est sélectionné-------------------------*/
     @IBAction func mediaButtons(_ sender: UIButton)
     {
         resetAllMediaButtonAlphas()
@@ -191,7 +192,7 @@ class ViewController: UIViewController
             sender.alpha = 0.5
         }
     }
-    /* ---------------------------------------*/
+    /* ----------------Methode que éteindre tous les boutons (ajoute une transparence) -----------------------*/
     func resetAllMediaButtonAlphas()
     {
         for index in 0 ..< arrMediaButtons.count
@@ -199,7 +200,7 @@ class ViewController: UIViewController
             arrMediaButtons[index].alpha = 0.5
         }
     }
-    /* ---------------------------------------*/
+        /* -----------------Mehode qu’allume tous les boutons (retire la transparence)----------------------*/
     func startAllMediaButtonAlphas()
     {
         for index in 0 ..< arrMediaButtons.count
@@ -208,7 +209,7 @@ class ViewController: UIViewController
             mediaSelected = false
         }
     }
-    /* ---------------------------------------*/
+    /* ----------------Methode que verifie si au moins une programme a été sélectionnée pour l’usager-----------------------*/
     func checkManagementSelection () -> Bool {
         
         for x in 0 ..< arrForButtonManagement.count{

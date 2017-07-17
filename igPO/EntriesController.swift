@@ -5,6 +5,7 @@ class EntriesController: UIViewController
 {
     /* ---------------------------------------*/
     //let jsonManager = JsonManager(urlToJsonFile: "http://localhost/xampp/geneau/ig_po/json/data.json")
+    /* -----------------Variables----------------------*/
     let jsonManager = JsonManager(urlToJsonFile: "http://www.igweb.tv/ig_po/json/data.json")
     var names: [String] = []
     var phones: [String] = []
@@ -16,7 +17,7 @@ class EntriesController: UIViewController
     override func viewDidLoad()
     {
         super.viewDidLoad()
-        
+        //---------Recuperation des données du json
         self.jsonManager.importJSON()
         self.names = self.jsonManager.returnKeys()
         self.phones = self.jsonManager.returnValues(0)
